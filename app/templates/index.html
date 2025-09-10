@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Scraper UI</title>
+</head>
+<body>
+    <h2>Job Search</h2>
+    <form action="/job" method="get">
+        <label>Query:</label>
+        <input type="text" name="query" value="engineer"><br><br>
+
+        <label>Location:</label>
+        <input type="text" name="location" value="lahore"><br><br>
+
+        <label>Limit:</label>
+        <input type="number" name="limit" value="5" min="1"><br><br>
+
+        <label>Page:</label>
+        <input type="number" name="page" value="1" min="1"><br><br>
+
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
